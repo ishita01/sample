@@ -18,7 +18,7 @@ public class DevopsApplicationTests {
 	public void testHomeController() {
 		HomeController homeController = new HomeController();
 		String result = homeController.home();
-		Assert.assertEquals(result, "Hello Ishita!");
+		Assert.assertEquals(result, "Hello World!");
 	}
 
 }
